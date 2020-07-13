@@ -1169,7 +1169,7 @@ class play():
 				#print("get_next_move 2, self.verify_win_scenario", self.level, "to verify", moves)
 				for w in moves:
 					if self.verify_win_scenario( player, w):
-						print("result is TRUE!!!!!!!!!!!!!! for", w, "at level", self.level)
+						#print("result is TRUE!!!!!!!!!!!!!! for", w, "at level", self.level)
 						next_move =  w
 						result = 1
 						self.forcing3_mode = True #??
