@@ -1,5 +1,5 @@
 # Five-in-a-Row
-Python based Five-In-A-Row game using Tkinter GUI with move analysis
+Python-3 based Five-In-A-Row game using Tkinter GUI with move analysis
 
 - Usage:
 python fiar.py
