@@ -4,7 +4,7 @@ Python based Five-In-A-Row game using Tkinter GUI with move analysis
 - Usage:
 python fiar.py
 
-Alternatively with debug options to arbitrarily edit game field
+- Alternatively with debug options to arbitrarily edit game field
 python fiar.py --d
 
 0.1 dev
