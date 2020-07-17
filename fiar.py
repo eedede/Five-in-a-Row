@@ -659,7 +659,7 @@ class game_control():
 			if not self.finished and not self.busy:
 				player = self.get_next_player() 	  # get current player
 				if self.play.field.is_free( i, j):    # ceck if field is free
-					self.last_moves = []
+					#self.last_moves = []
 					# mark selected field and enter symbol on game field
 					self.play.field.set( player, i, j)
 					self.updateMoveCounters()	
@@ -676,6 +676,9 @@ class game_control():
 						self.win_procedure( "You have won!\n\n", "Result: ")
 						
 					else:
+						if self.last_moves != []:
+							self.last_moves = []
+							self.win_mode = False
 						if self.anyMoveLeft():
 							# update game field with players move 
 							self.graphics.depict_field( player, i, j)
